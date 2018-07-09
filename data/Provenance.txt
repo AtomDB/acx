@@ -1,0 +1,5 @@
+Abundances_v2.0.0a.fits : AtomDB v2.0.2
+v2.0.2_ionbal.fits: AtomDB v2.0.2, based on Bryans et al.
+v2.0.0_ionbal.fits: AtomDB v2.0.2, based on Bryans et al.
+
+cx_mXY_sorted.dat: From Foster runs version 7.0

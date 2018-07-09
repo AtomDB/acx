@@ -1,0 +1,37 @@
+Installation Instructions for Ape Parameter Interface
+
+Ape is supported on Linux, OSX and Windows. It was tested
+on Scientific Linux 2.0, OSX 10.4 (Tiger) and Windows XP
+with both VS7 and VS8 compilers.
+
+Installing Ape under Linux/Mac OSX
+The process is the standard UNIX source installation
+process:
+
+o ./configure
+o make
+o make install
+
+Type ./configure --help to see configure options. The
+usual behavior applies to --prefix etc. One option,
+--with-readline, allows one to specify which version of
+readline to use with Ape.
+
+Notes on Mac OSX:
+o Xcodes are required.
+o By default, Ape uses readline, but some versions of OSX
+  do not come with readline installed, even as part of
+  Xcodes. If ape's configure fails to run because it can't
+  find readline, use the --with-readline option either to
+  tell Ape where to find readline or else to disable
+  readline. If readline is disabled, however, file completion
+  and memory will be disabled, which makes the interface
+  much less fun to use.
+
+Installing Ape under Windows
+Two sets of Visual Studio project files are provided:
+o In directory vs7 are Visual Studio 7 files (Visual C++.NET 2003).
+o In directory vs8 are Visual Studio 8 files (Visual C++.NET 2005).
+  - Note that in some cases VS8 fails to find the Platform SDK
+    even if the SDK was properly installed. If this happens, edit
+    the VS8 Project defaults to show it where to find the SDK.
