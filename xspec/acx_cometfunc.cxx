@@ -1,9 +1,11 @@
-#include <XSUtil/FunctionUtils/funcType.h>
+//#include <XSUtil/FunctionUtils/funcType.h>
+#include <XSFunctions/Utilities/funcType.h>
+
 #include <XSUtil/Numerics/Integrate.h>
 #include <XSUtil/Numerics/Numerics.h>
 #include <XSUtil/Utils/XSutility.h>
-#include <XSUtil/FunctionUtils/FunctionUtility.h>
-#include <XSUtil/FunctionUtils/xsFortran.h>
+#include <XSFunctions/Utilities/FunctionUtility.h>
+#include <XSFunctions/Utilities/xsFortran.h>
 #include <XSFunctions/functionMap.h>
 #include "xsTypes.h"
 #include <cmath>
