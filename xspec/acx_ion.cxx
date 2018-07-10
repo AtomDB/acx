@@ -97,10 +97,13 @@ void acxion(const RealArray& energyArray,
   /* First get all the ion pops */
   /* ************************** */
   for (size_t iZ=1; iZ<MAXIMUM_Z+1;iZ++) {
-    for (size_t jj=0;jj<iZ+1;jj++) ionpopZ[iZ][jj]=0.0;
+    if (ZhasCX[iZ]) {
+      for (size_t jj=0;jj<iZ+1;jj++) ionpopZ[iZ][jj]=0.0;
+    }
   }
+  
   ionpopZ[ZElement][rmJIon] = 1.0;  /* CHECK THIS */
-  printf("check this.\n");
+  //  printf("check this.\n");
 
   /* ************************** */
   /* Now do the CX calculation  */
