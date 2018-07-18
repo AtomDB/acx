@@ -6,7 +6,7 @@
 
 #include    "acxFunctionMap.h"
 
-#include    <XSModelFunction.h>
+#include    <XSFunctions/Utilities/XSModelFunction.h>
 
 void 
 createacxFunctionMap()

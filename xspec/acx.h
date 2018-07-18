@@ -11,7 +11,7 @@
 
 #define TWOPH_MAXZ 28
 
-#define DIRECTORY "/home/afoster/work/export1/proposals/ADAP_2014/DXS/tmp/acx-1.0.0"
+#define DIRECTORY "/export1/projects/acx"
 
 #define NUMCXMODELS 8
 

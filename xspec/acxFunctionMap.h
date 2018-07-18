@@ -7,7 +7,7 @@
 #ifndef    FUNCTIONMAP_H
 #define    FUNCTIONMAP_H
 
-#include    <funcType.h>
+#include    <XSFunctions/Utilities/funcType.h>
 
 class    XSModelFunction;
 
