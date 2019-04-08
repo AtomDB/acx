@@ -47,7 +47,7 @@ void acxion(const RealArray& energyArray,
   static bool isFirst = true;
   static bool ZhasCX[MAXIMUM_Z+1];
   bool *ZhasCXptr;
-  double *ionpopZ[MAXIMUM_Z+1];
+  static double *ionpopZ[MAXIMUM_Z+1];
 
   float *abZ;
   abZ = (float *) malloc((MAXIMUM_Z+1)*sizeof(float));
